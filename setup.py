@@ -8,7 +8,7 @@ setup(
                       open('AUTHORS.rst').read()),
     url='http://github.com/Pinterest/snappass/',
     install_requires=[
-        'Werkzeug==2.3.3',
+        'Werkzeug>=2,<3',
         'Flask',
         'redis',
         'cryptography'
