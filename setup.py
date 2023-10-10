@@ -8,10 +8,10 @@ setup(
                       open('AUTHORS.rst').read()),
     url='http://github.com/Pinterest/snappass/',
     install_requires=[
-        'Werkzeug>=2,<3',
-        'Flask',
-        'redis',
-        'cryptography'
+        'Werkzeug==2.3.3',
+        'Flask==2.3.2',
+        'redis==4.5.5',
+        'cryptography==41.0.4'
     ],
     license='MIT',
     author='Dave Dash',

@@ -49,4 +49,5 @@ htmlcov/
 
 # virtualenv
 venv/
+.venv/
 ENV/
