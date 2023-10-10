@@ -15,4 +15,4 @@ services:
           - redis
 
     redis:
-        image: "redis:latest"
+        image: redis:6.2.13
